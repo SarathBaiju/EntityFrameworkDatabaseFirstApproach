@@ -1,5 +1,14 @@
-﻿steps:
+﻿
 
+
+steps:
+==> Sql Side
+ 1. Create a Database "Learning_Db"
+ 2. Create a Students Table
+ (Check sql-scripts.sql file for getting sql commands to do the same)
+
+
+==> Application Side
 1. add "Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.22" 
 
 2. Create EntityModels here Student
